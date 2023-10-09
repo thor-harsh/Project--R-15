@@ -7,7 +7,7 @@
   Hopefully, as an investor you would want to invest in people who showed a profile of having a high probability of paying you back. We will build svm model to help us in predict this.
   We will use lending data from 2007-2010 and be trying to classify and predict whether or not the borrower paid back their loan in full.
 
-Here are what the columns represent:<br>
+ **Here are what the columns represent:** <br>
 
 credit.policy: 1 if the customer meets the credit underwriting criteria of LendingClub.com, and 0 otherwise.<br><br/>
 purpose: The purpose of the loan (takes values "credit_card", "debt_consolidation", "educational", "major_purchase", "small_business", and "all_other").<br><br/>
