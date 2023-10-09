@@ -10,10 +10,10 @@ Here are what the columns represent:<br>
 
 credit.policy: 1 if the customer meets the credit underwriting criteria of LendingClub.com, and 0 otherwise.<br><br/>
 purpose: The purpose of the loan (takes values "credit_card", "debt_consolidation", "educational", "major_purchase", "small_business", and "all_other").<br><br/>
-int.rate: The interest rate of the loan, as a proportion (a rate of 11% would be stored as 0.11). Borrowers judged by LendingClub.com to be more risky are assigned higher interest rates.<br><br>
-installment: The monthly installments owed by the borrower if the loan is funded.<br>
-log.annual.inc: The natural log of the self-reported annual income of the borrower.
-dti: The debt-to-income ratio of the borrower (amount of debt divided by annual income).
+int.rate: The interest rate of the loan, as a proportion (a rate of 11% would be stored as 0.11). Borrowers judged by LendingClub.com to be more risky are assigned higher interest rates.<br><br/>
+installment: The monthly installments owed by the borrower if the loan is funded.<br><br/>
+log.annual.inc: The natural log of the self-reported annual income of the borrower.<br><br/>
+dti: The debt-to-income ratio of the borrower (amount of debt divided by annual income).<br>
 fico: The FICO credit score of the borrower.
 days.with.cr.line: The number of days the borrower has had a credit line.
 revol.bal: The borrower's revolving balance (amount unpaid at the end of the credit card billing cycle).
